@@ -1,0 +1,152 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #202020;
+}
+
+/* Header */
+
+.header {
+  padding: 23px 0px;
+  background-color: #f1f1f1;
+  &-container {
+    max-width: 1137px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu {
+  &__link {
+    margin-left: 11px;
+    margin-right: 11px;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.personal-account {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  padding-top: 62px;
+  padding-bottom: 71px;
+  &-container {
+    max-width: 1137px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  &-image {
+    margin-right: 122px;
+  }
+}
+
+.author {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 54px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.subtitle {
+  display: block;
+  margin-bottom: 48px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.book-info {
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__item {
+    flex-basis: 45%;
+    margin-bottom: 16px;
+  }
+}
+
+.favorites {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 23px 57px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  border: 2px solid transparent;
+}
+
+.heart-icon {
+  margin-right: 7px;
+}
+
+.button-filled {
+  background-color: #f89c02;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.button-outline {
+  border: 2px solid #f89c02;
+  color: #f89c02;
+  background-color: #ffffff;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.pricetag {
+  font-size: 55px;
+  line-height: 36px;
+  margin-right: 64px;
+}
