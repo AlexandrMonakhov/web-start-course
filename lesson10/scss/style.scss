@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
+@import "./fonts";
+
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #202020;
 }
 
@@ -74,6 +76,7 @@ body {
 .title {
   margin-top: 0;
   margin-bottom: 15px;
+  font-family: "MuseoCyrl-900";
   font-size: 54px;
   line-height: 1.2;
   font-weight: 700;
