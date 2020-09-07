@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "LobsterRegular";
+  src: url("../fonts/LobsterRegular/LobsterRegular.eot"),
+    url("../fonts/LobsterRegular/LobsterRegular.woff") format("woff"),
+    url("../fonts/LobsterRegular/LobsterRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "BebasRegular";
+  src: url("../fonts/BebasRegular/BebasRegular.eot"),
+    url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
+    url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "BadScriptRegular";
+  src: url("../fonts/BadScriptRegular/BadScriptRegular.eot"),
+    url("../fonts/BadScriptRegular/BadScriptRegular.woff") format("woff"),
+    url("../fonts/BadScriptRegular/BadScriptRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text-box {
+  padding-top: 2rem;
+}
+.result {
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+.fonts {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+small {
+  font-size: 1.3rem;
+}
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bebasregular {
+  font-family: "BebasRegular", sans-serif;
+}
+.badscript {
+  font-family: "BadScriptRegular", sans-serif;
+}
+.lobster {
+  font-family: "LobsterRegular", sans-serif;
+}
