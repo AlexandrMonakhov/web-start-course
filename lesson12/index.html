@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путь фрилансера - сайт книги</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -31,11 +33,14 @@
 
     <main class="hero">
       <div class="hero-container">
-        <img
-          src="./img/book.png"
-          alt="Книга Путь фрилансера"
-          class="hero-image"
-        />
+        <div class="hero-image-block">
+          <img
+            src="./img/book.png"
+            alt="Книга Путь фрилансера"
+            class="hero-image"
+          />
+          <span class="sale-label">Скидка 30%</span>
+        </div>
         <div class="hero-text">
           <span class="author">Артем Исламов</span>
           <h1 class="title">Путь фрилансера</h1>
@@ -46,7 +51,6 @@
             <li class="book-info__item">Тип обложки: мягкая</li>
             <li class="book-info__item">Возрастные ограничения: 12+</li>
           </ul>
-
           <div class="price">
             <span class="pricetag">490 ₽</span>
             <a href="#" class="favorites">
@@ -140,5 +144,52 @@
       </div>
     </section>
     <!-- /.readers -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="requisites">
+          <h3 class="footer-title">Реквизиты</h3>
+          <ul class="footer-list">
+            <li class="footer-list__item">ИП Исламов Артем Данисович</li>
+            <li class="footer-list__item">ИНН 026408036102</li>
+            <li class="footer-list__item">ОГРНИП 318028000152678</li>
+          </ul>
+        </div>
+        <div class="information">
+          <h3 class="footer-title">Информация</h3>
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a href="#" class="footer-link">Политика конфиденциальности</a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="footer-link">Правила обработки данных</a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#" class="footer-link">Доровор-оферта</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <h3 class="footer-title">Контакты</h3>
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a href="mailto:freelance-book@ya.ru" class="footer-link"
+                >freelance-book@ya.ru</a
+              >
+            </li>
+            <li class="footer-list__item">
+              <a href="vk.me/aislam23" class="footer-link">vk.me/aislam23</a>
+            </li>
+            <li class="footer-list__item">
+              <a href="t.me/aislam23" class="footer-link">t.me/aislam23</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.footer-container -->
+    </footer>
+    <!-- /.footer -->
+    <a href="#" class="to-top">
+      <img src="./img/return.svg" alt="Наверх" class="arrow" />
+    </a>
   </body>
 </html>
