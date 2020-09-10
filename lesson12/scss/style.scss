@@ -513,6 +513,16 @@ img {
 }
 
 @media (max-width: 526px) {
+  .sale-label {
+    padding: 4px 6px;
+  }
+  .header,
+  .hero,
+  .about,
+  .readers,
+  .footer {
+    padding: 20px 0px;
+  }
   .price {
     display: flex;
     flex-direction: column;
