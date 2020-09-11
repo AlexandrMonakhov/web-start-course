@@ -412,7 +412,7 @@ img {
   }
   .requisites,
   .information {
-    margin-right: 70px;
+    margin-right: 55px;
   }
 }
 
@@ -423,6 +423,9 @@ img {
   .readers-container,
   .footer-container {
     max-width: 560px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
   }
   .hero-container {
     flex-wrap: wrap;
@@ -511,8 +514,8 @@ img {
     font-size: 16px;
   }
   .reader {
-    width: 144px;
-    height: 144px;
+    width: 140px;
+    height: 140px;
   }
   .reader:nth-child(n) {
     display: none;
@@ -551,7 +554,7 @@ img {
   }
 
   .readers-wrapper {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .reader {
     width: 175px;
